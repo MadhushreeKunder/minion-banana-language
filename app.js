@@ -6,8 +6,7 @@ var outputDiv= document.querySelector("#output");
 
 // outputDiv.innerText="Banana Translated";
 function clickHandler() {
-     console.log("button is clicked!");
-     console.log("input" , textinput.value);
+     outputDiv.innerText= "rubbish values " + textInput.value;
 };
 
 buttonClicked.addEventListener("click", clickHandler);
