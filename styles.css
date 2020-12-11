@@ -92,7 +92,7 @@ textarea {
 
 footer {
   background-color: var(--primary-color);
-    height: 27vh;
+    height: ;
 }
 
 #footer-heading {
@@ -104,6 +104,7 @@ footer {
 .footer-text {
   max-width: var(--width-break);
   margin: auto;
-  padding: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
   color: var(--dark-gray);
 }
