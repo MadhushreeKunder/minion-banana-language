@@ -1,17 +1,22 @@
-@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,700&display=swap");
 
 :root {
   --primary-color: #fcd34d;
   --secondary-color: #185c8f;
+  --dark-gray: #1F2937;
   --width-break: 600px;
+}
+
+main{
+  max-width: var(--width-break);
+  margin:auto;
+  padding:1rem;
 }
 
 body {
   font-family: "Comic Neue", cursive;
   margin: 0px;
-  
 }
-
 
 /* container */
 .container {
@@ -24,12 +29,13 @@ body {
   background-color: var(--secondary-color);
   color: white;
   padding: 1rem;
-  height: 5rem;
-  margin-bottom: 3rem;
+  height: 10%;
+  margin-bottom: 1rem;
+
 }
 
 .app-name {
-  padding-top: 1.75rem;
+ padding: 1rem;
   text-align: center;
   font-size: x-large;
 }
@@ -37,41 +43,58 @@ body {
 /* textarea input box */
 textarea {
   height: 5rem;
-  width: 100%;
-  width: var(--width-break);
+  width: 80%;
   padding: 1rem;
-  margin: auto;
   display: block;
-  
-}
-
-.input-box-styling {
   border: 5px solid var(--primary-color);
+  font-family: inherit;
+  font-size: large;
 }
 
 /* button */
 .btn-style {
   background-color: var(--primary-color);
   padding: 1rem 2rem;
-  margin: 1rem;
+  margin: 1rem 0rem;
   border: none;
   font-family: "Comic Neue", cursive;
-  font-size: x-large;
-  
+  font-size: large;
 }
 
-/* centered-text */
-.centered{
-    text-align: center;
+/* plain text */
+#text-color{
+  color: var(--dark-gray);
 }
+
 
 /* output box */
 #output {
   height: 5rem;
-  width: 100%;
-  width: var(--width-break);
+  width: 80%;
+  margin-top: 1rem;
   padding: 1rem;
-  margin:auto;
   display: block;
-  border: 2px solid black;
+  border: 5px solid var(--secondary-color);
+  font-size: large;
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+
+/* footer */
+
+footer{
+  background-color: var(--primary-color); 
+  height: 15%;
+}
+
+#footer-heading{
+ padding-top: 1rem;
+  text-align: center;
+}
+
+.footer-text{
+  max-width: var(--width-break);
+  margin:auto;
+  padding-bottom: 1rem;
+  color: var(--dark-gray);
 }
