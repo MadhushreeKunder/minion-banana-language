@@ -2,9 +2,9 @@ var buttonClicked = document.querySelector("#btn-click");
 var textInput = document.querySelector("#textinput");
 var outputDiv= document.querySelector("#output");
 
-// var serverURL= "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json"
+var serverURL= "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json"
 
-var serverURL ="https://api.funtranslations.com/translate/minion.json"
+//var serverURL ="https://api.funtranslations.com/translate/minion.json"
 
 function getTranslatedURL(text){
      return serverURL + "?" + "text=" + text
