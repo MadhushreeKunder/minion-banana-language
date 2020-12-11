@@ -78,6 +78,7 @@ textarea {
   height: 5rem;
   width: 80%;
   margin-top: 1rem;
+  margin-bottom: 1rem;
   padding: 1rem;
   display: block;
   border: 5px solid var(--secondary-color);
@@ -91,7 +92,7 @@ textarea {
 
 footer {
   background-color: var(--primary-color);
-  height: 15%;
+    height: 100%;
 }
 
 #footer-heading {
